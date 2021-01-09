@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+<title>LENS-IT project</title>
+<nav>
+	<div class="icon">
+		<img src="https://www.clipartkey.com/mpngs/m/206-2060856_transparent-cloudy-weather-clipart-nublado-png.png"height="55px" width="55px" border-radius="20px">
+</nav>
+  <div class="heading">
+    <h3>LENS Weather</h3>
+  </div>
+  <div class="art">
+    <a href="gallery.html"><button class="pg-btn"><i class="material-icons">art_track</i> Gallery</button></a>
+  </div>
+</nav>
+<body>
+  <div class="main">
+    <div class="intro">
+        <p>Welcome to our IT project site by LENS(Lets Educate New Subject)</p>
+    </div>
+    <div class="info">
+        <p>In this site you can select city name (in the drop down box) and get the weather details from our site. Select the city name by clicking on the radio button in the drop down contents. 
+        </p>
+    </div>
+    <div class="school">
+      <a href="https://www.saradaschool.in/saradadesignnew/default.aspx">Click here to visit our school website</a><br/>
+      <a href="https://github.com/it-project-group/it-project-code-unorganised.git">Click here to download this site codes from our github page</a>
+      </div>
+    <div class="form">
+      <div class="drop-down">
+        <p1>Select City Name  <span> <i style="font-size:24px" class="fa"> &#xf13a;</i></span></p1>
+        <div class="city-list" id="list">
+<input type="radio" name="grp" id="Jammu-and-kashmir" value="Jammu and Kashmir"><label>Jammu and Kashmir</label>
+<input type="radio" name="grp" id="Srinagar" value="srinagar"/><label>Srinagar</label>
+
+<input type="radio" name="grp" id="Jammu" value="jammu"/><label>Jammu</label>
+
+<input type="radio" name="grp" id="Anantnag" value="anantnag"/><label>Anantnag</label>
+
+<input type="radio" name="grp" id="udhampur" value="udhampur"/><label>Udhampur</label>
+
+<input type="radio" name="grp" id="Leh" value="leh"/><label>Leh</label>
+
+<input type="radio" name="grp" id="Doda" value="doda"/><label>Doda</label>
+
+<input type="radio" name="grp" id="kulgam" value="kulgam"/><label>Kulgam</label>
+
+<input type="radio" name="grp" id="Akhnoor" value="Akhnoor"/><label>Akhnoor</label>
+
+<input type="radio" name="grp" id="Sopore" value="Sopore"/><label>Sopore</label>
+
+<input type="radio" name="grp" id="Baramula" value="Baramula"/><label>Baramula</label>
+
+<input type="radio" name="grp" id="Rajauri" value="Rajauri"/><label>Rajauri</label>
+
+<input type="radio" name="grp" id="Punch" value="punch"/><label>Punch</label>
+
+<input type="radio" name="grp" id="Kupwara" value="Kupwara"/><label>Kupwara</label>
+
+<input type="radio" name="grp" id="Kathua" value="Kathua"/><label>Kathua</label>
+
+<input type="radio" name="grp" id="Tamil-Nadu" value="Tamil Nadu"/><label>Tamil-Nadu</label>
+
+<input type="radio" name="grp" id="Chennai" value="Chennai"/><label>Chennai</label>
+
+<input type="radio" name="grp" id="Vellore" value="vell'"/><label>Vellore</label>
+
+<input type="radio" name="grp" id="coimbatore" value="coimbatore"/><label>coimbatore</label>
+
+<input type="radio" name="grp" id="Madurai" value="madurai"/><label>Madurai</label>
+
+<input type="radio" name="grp" id="Tiruchirapalli" value="Tiruchirappalli"/><label>Tiruchirappalli</label>
+
+<input type="radio" name="grp" id="Salem" value="Salem"/><label>Salem</label>
+
+<input type="radio" name="grp" id="Erode" value="Erode"/><label>Erode</label>
+
+<input type="radio" name="grp" id="Tirunelveli" value="Tirunelveli"/><label>Tirunelveli</label>
+
+<input type="radio" name="grp" id="Dindigul" value="Dindigul"/><label>Dindigul</label>
+
+<input type="radio" name="grp" id="Thanjavur" value="Thanjavur"/><label>Thanjavur</label>
+
+<input type="radio" name="grp" id="Sivakasi" value="Sivakasi"/><label>Sivakasi</label>
+
+<input type="radio" name="grp" id="Karur" value="Karur"/><label>Karur</label>
+
+<input type="radio" name="grp" id="udhagamandalam" value="Udhagamandalam"/><label>Udhagamandalam</label>
+
+<input type="radio" name="grp" id="Hosur" value="Hosur"/><label>Hosur</label>
+
+<input type="radio" name="grp" id="Nagercoil" value="Nagaercoil"/><label>Nagercoil</label>
+
+<input type="radio" name="grp" id="kanchipuram" value="Kanchipuram"/><label>Kanchipuram</label>
+
+<input type="radio" name="grp" id="Karaikkudi" value="Karaikkudi"/><label>Karaikkudi</label>
+
+<input type="radio" name="grp" id="Neyveli" value="Neyveli"/><label>Neyveli</label>
+
+<input type="radio" name="grp" id="Cuddalore" value="Cuddalore"/><label>Cuddalore</label>
+
+<input type="radio" name="grp" id="Kumbakonam" value="Kumbakonam"/><label>Kumbakonam</label>
+
+<input type="radio" name="grp" id="Tiruvannamalai" value="Tiruvannamalai"/><label>Tiruvannamalai</label>
+
+<input type="radio" name="grp" id="Vaniyambadi" value="Vaniyambadi"/><label>Vaniyambadi</label>
+
+<input type="radio" name="grp" id="Gudiyatham" value="Gudiyatham"/><label>Gudiyatham</label>
+
+<input type="radio" name="grp" id="Ambur" value="Ambur"/><label>Ambur</label>
+
+<input type="radio" name="grp" id="Nagapattinam" value="Nagapattinam"/><label>Nagapattinam</label>
+
+<input type="radio" name="grp" id="Pudukkottai" value="Pudukkottai"/><label>Pudukkottai</label>
+
+<input type="radio" name="grp" id="Pollachi" value="Pollachi"/><label>Pollachi</label>
+
+        </div>
+        
+        <button onclick="show()" id="btn1" class="butn">Submit</button>
+       
+      </div>
+    </div>
+    <div class="display">
+      <h1 class="city" id="city"></h1><br>
+      <p6 class="temp"></p6><br>
+      <p6 class="desc"></p6><br>
+    </div>
+  </div>
+  <div class="footer1">
+      <div class="content">
+        <h2>Developed</h2>
+        <p>RAKESH.S.D</p>
+        <h2>Designing</h2>
+        <p>JAYA VARSHAN.S.J
+        <p>KAUSHIK.S.K</p>
+        <p>VIGNESH.B</p>
+        <p>DINESH.M</p>
+      </div>
+    <div class="contents">
+    <div class="contacts">
+      <h2>Contact us</h2>
+        <div class="bttn">
+         <a href="contact.html">
+           <button><i class="glyphicon glyphicon-envelope"> </i> Send</button>
+           </a>
+        </div> 
+        </div>
+    </div>
+  </div>
+    
+</div>
+<div class="copy">
+  &copy | developed by LENS |for IT project|Sri Sarada Secondary School
+</div>
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
